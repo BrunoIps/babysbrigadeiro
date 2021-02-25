@@ -106,9 +106,44 @@ body{
 h3{
   padding-top: 5%;
   line-height: 1.5;
+  text-align: center;
 }
 .feed{
   padding-bottom: 2%;
+}
+/* Menu*/
+.cardapio{
+  text-align: center;
+}
+.card-menu{
+  padding: 3%;
+}
+
+/* footer */
+.social-icon{
+  margin: 20px 10px;
+  
+}
+#contact{
+  text-align: center;
+}
+.social{
+  text-align: center;
+  margin-bottom: 20px;
+}
+p{
+  text-align: center;
+
+}
+
+.i-face:hover{
+  background-color: #3b5998;
+}
+.i-whats:hover{
+  background-color: #34af23;
+}
+.i-insta:hover{
+  background-color: #dd2a7b;
 }
 @media (max-width: 1028px){
   #title{
