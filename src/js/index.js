@@ -1,12 +1,20 @@
-var brig = $('.brigadeiro-img');
-setInterval(() => {
-  
-  brig.attr('src', 'src/images/babybrigadeiro.png').hide();
-  setTimeout(()=>{
-    brig.show('slide')
-  }, 4000)
+var tela = $('.window-size').innerHTML = window.innerWidth;
 
-}, 3500);
+if(tela > 1028){
+  var brig = $('.brigadeiro-img');
+  setInterval(() => {
+    
+    brig.attr('src', 'src/images/babybrigadeiro.png').hide();
+    setTimeout(()=>{
+      brig.show('slide')
+    }, 4000)
+  
+  }, 3500);
+}
+else{
+  $('.brigadeiro-img').attr('src', 'src/images/babybrigadeiro.png')
+}
+
   
 //   rotate = 0;
 // brig.mouseenter( () =>{
