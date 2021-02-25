@@ -33,7 +33,3 @@ $('.insta-link').click(()=>{
   console.log("click")
   window.open('https://www.instagram.com/babysbrigadeiros/')
 })
-$('.face-link').click(()=>{
-  console.log("click")
-  window.open('https://www.facebook.com/babysbrigadeiros')
-})
