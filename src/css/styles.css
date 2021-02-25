@@ -149,7 +149,7 @@ p{
 }
 .email-links{
   border: solid 1px;
-  padding: 5px 0px;
+  padding: 5px 6px;
   background-color: #fff;
 }
 .email-links:hover{
@@ -208,4 +208,20 @@ p{
     margin: 50px 60px;
     
   }
+  .email-links{
+    background-color:red; 
+   border: solid 1px;
+   font-size: 2.5rem;
+   padding: 0px 6px 6px 6px;
+   margin-top: 10px;
+   
+  }
+  .email-links:hover{
+    
+    padding: 0px 6px 6px 6px;
+    background-color:#f49ae1; 
+   border: solid 1px;
+   font-size: 2.5rem;
+  }
+
 }
