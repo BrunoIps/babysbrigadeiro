@@ -1,0 +1,121 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.colored-section {
+  background-color: #f49ae1;
+}
+.blue-section {
+  background-color: #b5d8f6;
+}
+/* Containers */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.container-fluid{
+  padding: 3% 15%;
+  text-align: left;
+}
+/* Nav bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+/* brigadeiro-img */
+.brigadeiro-img{
+  position: absolute;
+  width: 50%;
+  right: 10%;
+}
+/* WhatsAPP link */
+.btn-whats{
+  margin: 5% 3% 5% 0;
+  background-color: #34af23;
+  font-size: 2rem;
+  color: #fff;
+  border: solid 0.1px;
+  border-radius: 10px;
+}
+.btn-whats:hover{
+  margin: 5% 3% 5% 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 2rem;
+  border: solid 0.1px;
+}
+
+/* Feature Section */
+#features{
+  position: relative;
+  
+}
+
+.icon-feature{
+  color: #f49ae1;
+  padding-bottom: 1rem;
+  
+  
+}
+
+.icon-feature:hover{
+  color: #ff4c68;
+}
+
+.feature-box{
+  padding: 6%;
+  text-align: center;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* relatos */
+.carousel-item{
+  max-width: 45%;
+  max-height: 45%;
+
+}
+.control{
+  width: 50px;
+  height: 50px;
+}
+
+.relatos-img{
+  /* max-width: 30%;
+  max-height: 30%; */
+  margin: 20px;
+  
+}
+h3{
+  padding-top: 5%;
+  line-height: 1.5;
+}
+.feed{
+  padding-bottom: 2%;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .brigadeiro-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
